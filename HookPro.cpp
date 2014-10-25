@@ -19,7 +19,6 @@ int hookpro::SetHook()
 	if (_SetHook()==0)
 			   return 0; 
 
-
 	else
 	return -1;
 	   }
