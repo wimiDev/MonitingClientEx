@@ -17,7 +17,9 @@ int hookpro::SetHook()
 #pragma comment(lib,"F:\\.NET program\\MonitoringClient\\Debug\\Hook.lib")
 	extern int  _declspec(dllimport) _cdecl _SetHook();
 	if (_SetHook()==0)
-			   return 0;
+			   return 0; 
+
+
 	else
 	return -1;
 	   }
